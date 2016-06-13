@@ -1,0 +1,15 @@
+android {
+  productFlavors {
+    "nativescript-facebook-login2" {
+      dimension "nativescript-facebook-login2"
+    }
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'com.facebook.android:facebook-android-sdk:4.11.0'
+}
